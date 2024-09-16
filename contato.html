@@ -22,8 +22,8 @@
                     <ul id="MenuItens">
                         <li><a href="./index.html" title="">Início</a></li>
                         <li><a href="./produtos.html" title="">Produtos</a></li>
-                        <li><a href="./empresa.html" title="">Empresa</a></li>
-                        <li><a href="./contato.html" title="">Contatos</a></li>
+                        <li><a href="" title="">Empresa</a></li>
+                        <li><a href="" title="">Contatos</a></li>
                         <li><a href="./minha-conta.html" title="">Minha Conta</a></li>
                     </ul>
                 </nav>
@@ -36,40 +36,33 @@
         </div>
     </div>
 
-    <div class="minha-conta">
-        <div class="container">
-            <div class="linha">
-                <div class="col-2">
-                    <img src="./src/img/banner-1.png" alt="" width="100%">
-                </div>
+<div class="minha-conta">
+    <div class="container">
+        <div class="linha">
+            <div class="col-2">
+                <img src="./src/img/banner-2.png" alt="" width="100%">
+            </div>
 
-                <div class="col-2">
-                    <div class="formulario">
-                        <div class="btn-form">
-                            <span onclick="Entrar()">Entrar</span>
-                            <span onclick="Cadastro()">Cadastro</span>
-                            <hr id="Indicador">
-                        </div>
-
-                        <form action="" method="post" id="EntrarPainel">
-                            <input type="email" name="email" id="" placeholder="E-mail de acesso">
-                            <input type="password" name="senha" id="" placeholder="Digite sua senha">
-                            <button type="submit" name="senEntrar" class="btn">Entrar</button>
-                            <a href="" title="">Esqueceu sua senha?</a>
-                        </form>
-
-                        <form action="" method="post" id="CadastroSite">
-                            <input type="text" name="nome" id="" placeholder="Nome completo">
-                            <input type="email" name="email" id="" placeholder="E-mail de acesso">
-                            <input type="password" name="senha" id="" placeholder="Digite sua senha">
-                            <button type="submit" name="sendCad" class="btn">Cadastre-se</button>
-                        </form>
-
+            <div class="col-2">
+                <div class="formulario">
+                    <div class="btn-form">
+                        <span onclick="Cadastro()">Contato</span>
                     </div>
+
+                    <form action="" method="post" id="CadastroSite" style="margin-top: -55px;">
+                        <input type="text" name="nome" id="" placeholder="Nome completo">
+                        <input type="email" name="email" id="" placeholder="Telefone">
+                        <input type="password" name="senha" id="" placeholder="E-mail de acesso">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua mensagem"
+                            style="width: 100%;height: 70px;margin: 10px 0;padding: 0 10px;border: 1px solid var(--cor-padrao);border-radius: 3px;outline: none;"></textarea>
+                        <button type="submit" name="sendCad" class="btn">Enviar</button>
+                    </form>
+
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <footer class="rodape">
         <div class="container">
@@ -115,7 +108,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="./src/js/login.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
