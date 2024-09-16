@@ -1,0 +1,97 @@
+:root {
+    --cor-padrao: #ff523b;
+    --cor-padrao-hover: #f3b2e5;
+    --cor-fonte: #fff;
+    --cor-fonte-p: #555;
+    --cor-btn: #563434;
+    --cor-btn-hover: #F5f5dc;
+    --cor-btn-fonte: #000;
+    --cor-fonte-corpo: #555;
+    --cor-fonte-corpo-leve: #777;
+}
+
+.menu-mobile {
+    width: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width:800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: var(--cor-btn-fonte);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: var(--cor-fonte);
+    }
+
+    .menu-mobile {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .novoMenu nav ul li a {
+        color: var(--cor-fonte);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .linha {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+    }
+
+    .col-2 h1 {
+        font-size: 27px;
+    }
+
+    .rodape-col-3,
+    .rodape-col-4 {
+        text-align: center;
+    }
+
+    .col-4 p {
+        font-size: 24px;
+    }
+
+    .novoMenu nav ul li a {
+        color: var(--cor-fonte);
+    }
+
+    .ver-produto .col-2 {
+        margin: 20px 0;
+    }
+
+    .ver-produto .linha {
+        text-align: left;
+    }
+
+    .ver-produto h1 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .info-carrinho p {
+        display: none;
+    }
+
+}
