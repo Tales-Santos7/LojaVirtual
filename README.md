@@ -7,7 +7,7 @@ LojaVirtual é uma aplicação web desenvolvida para simular um ambiente de e-co
 
 ### Captura do projeto
 "C:\Users\detys\OneDrive\Desktop\PROJETOS\site_loja_youtube\src\img\LojaVirtualGIF.gif"
-[<img src="./src/img/LojaVirtualGIF.gif" alt="gif da dela inicial do projeto 'LojaVirtual'">]
+[<img src="src/img/LojaVirtualGIF.gif" alt="gif da dela inicial do projeto 'LojaVirtual'">]
 
 ### Links
 
