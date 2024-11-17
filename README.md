@@ -1,6 +1,6 @@
 # LojaVirtual
 
-LojaVirtual é uma aplicação web desenvolvida para simular um ambiente de e-commerce moderno e funcional. O projeto oferece uma interface intuitiva, com recursos de navegação, listagem de produtos, detalhes dos produtos e um carrinho de compras. 
+LojaVirtual é uma aplicação web desenvolvida para simular um ambiente de e-commerce moderno e funcional. O projeto oferece uma interface intuitiva, com recursos de navegação, listagem de produtos, detalhes dos produtos e um carrinho de compras.🛍️
 
 
 ## Visão geral
